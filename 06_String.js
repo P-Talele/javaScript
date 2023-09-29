@@ -4,4 +4,12 @@
      let empName=new  String("prashant");
      let Upper=empName.toUpperCase()
      console.log(Upper.indexOf('h'))
+
+
+     let  empCity="  Jalgaon"
+
+      console.log(empCity)
+      console.log(empCity)    
+
+
   
