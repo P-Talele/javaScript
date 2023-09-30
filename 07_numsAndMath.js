@@ -17,7 +17,7 @@ console.log(score.toPrecision())
  const onionprice=100000
  console.log(onionprice.toLocaleString(`en-IN`))
 
-
+    
  //   math 
 
    const Num=100
