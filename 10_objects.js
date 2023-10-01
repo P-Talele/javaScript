@@ -22,6 +22,8 @@ const user={
       console.log(jsuser)
 
 
-      
-
-    
+     const emptyobject={}
+         if(Object.keys(emptyobject).length === 0)
+         {
+           console.log("Object Is Empty")
+         }
