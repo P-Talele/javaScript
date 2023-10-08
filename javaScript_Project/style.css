@@ -1,0 +1,30 @@
+body{ 
+   background-color: rgba(29, 4, 4, 0.614);
+}
+
+.box{
+        height: 100px;
+        width: 100px;
+        border-color: black;
+        border: solid;
+        display: inline-block;
+        margin-left: 20px;
+     }
+
+     #red{
+    background-color: red;
+     }
+     #gray{
+        background-color: gray; 
+     } 
+
+     #white{
+         background-color:white;
+     }
+
+     #yellow{
+         background-color: yellow;
+     }
+
+
+   
