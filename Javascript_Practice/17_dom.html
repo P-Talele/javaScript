@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>  
+<body> 
+      <!-- <div class="parrent">
+        <h1 class="one"   id="one">Sunday     </h1>
+        <h2 class="two"   id="two">Monday     </h2>
+        <h3 class="three" id="three">Tusday   </h3>
+        <h4 class="four"  id="four">Wednesday </h4>
+        <h5 class="five"  id="five">tusday    </h5>
+        <h6 class="six"   id="six">Friday     </h6>
+        <h7 class="seven" id="seven">Saturday </h7>  
+       </div> -->
+
+         <ul class="language">
+              <li>Python</li>
+        </ul>
+</body>
+<script>
+   
+             
+                     function addlanguage(langName)
+                      {
+                              const li= document.createElement(`li`)
+                              li.innerHTML=`${langName}`
+                              document.querySelector(`.language`).appendChild(li)
+                      }
+                           addlanguage("Java")
+                         
+                              
+                       function addOptiLanguage(langName){
+                                    const li=document.createElement(`li`);
+                                    li.appendChild(document.createTextNode(langName))
+                                    document.querySelector(`.language`).appendChild(li)
+                       }
+                             addOptiLanguage("JavaScript")     
+
+
+
+
+
+
+</script>
+</html>
