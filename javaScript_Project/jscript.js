@@ -1,8 +1,7 @@
 const button= document.querySelectorAll(`.box`)
 const body = document.querySelector(`.body`)
 
-
-    button.forEach(function(box)
+button.forEach(function(box)
      {
           box.addEventListener("click",function(e) {
             if(e.target.id ==="red")
