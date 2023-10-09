@@ -18,7 +18,7 @@ button.forEach(function(box)
             }
             if(e.target.id ==="gray")
             {   
-                body.style.backgroundColor=e.target.id;
+               body.style.backgroundColor=e.target.id;
             }
           })
     })
