@@ -1,6 +1,6 @@
 const button= document.querySelectorAll(`.box`)
 const body = document.querySelector(`.body`)
-
+const body2=30;
 button.forEach(function(box)
      {
           box.addEventListener("click",function(e) {
@@ -22,5 +22,5 @@ button.forEach(function(box)
             }
           })
     })
-    
+      
 
