@@ -4,4 +4,4 @@ var accountGmail="prashant@google.com"
 var bankName="SBI"
 let city="Jalgaon"    
 console.table([acountID,accountName,bankName,accountGmail,city])
-
+console.log("my bank name"+bankName)
