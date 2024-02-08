@@ -11,7 +11,7 @@ function  getInformation(student_id) {
                     console.log("Student ID="+student_id)
                     resolve("succsess")
                 
-            },2000)
+               },2000)
          })
         }
 
