@@ -20,6 +20,26 @@ function  getInformation(student_id) {
 
 
 
+   let promise2 = new Promise(function (resolve, reject) {
+	const x = "geeksforgeeks";
+	const y = "geeksforgeeks"
+	if (x === y) {
+		resolve();
+	} else {
+		reject();
+	}
+});
+
+promise2.
+	then(function () {
+		console.log('Success, You are a GEEK');
+	}).
+	catch(function () {
+		console.log('Some error has occurred');
+	});
+
+
+
 
   // how to handle promise    -------->    using then can catch Method Using 
 
