@@ -1,6 +1,6 @@
 const month=11
 
-switch (month) {
+ switch (month) {
     case  1:
         console.log("january")
      break;
