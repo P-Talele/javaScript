@@ -8,8 +8,6 @@
    console.log(nameString)
    console.log(typeof convertNumber)
       
-
-   
    const value =10
    let negValue=-value
    console.log("negative value"+negValue)

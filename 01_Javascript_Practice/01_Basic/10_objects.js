@@ -1,27 +1,28 @@
 const user={
-         id:2313,    
-         name:"prashant talele",  
-         phone:9130231926,
-         gmail:"prashanttalele1997@gmail.com",
-         age:25 ,
-         address:"at Post Engaon Talu Bodwad Dist Jalgaon",
-         currentAddress:"pune",
-         marriedStatus:"Unmarid",
-         gender:"male",
-         officeName:"Google",
-         education:"MCA",
+          id:2313,    
+          name:"prashant talele",  
+          phone:9130231926,
+          gmail:"prashanttalele1997@gmail.com",
+          age:25 ,
+          address:"at Post Engaon Talu Bodwad Dist Jalgaon",
+          currentAddress:"pune",
+          marriedStatus:"Unmarid",
+          gender:"male",
+          officeName:"Google",
+          education:"MCA",
           }    
-          console.log(user)
-          console.log(user)    
+           console.log(user)                                  //   Object Calling     All Data   
+
+           console.log(user.address)                           // Object single Calling Function 
       
-      let jsuser
-      jsuser="prashanttalele1997@gmail.com"
-      console.log(jsuser)
-      Object.freeze(jsuser)
-      jsuser="prashant@google.com"
-      console.log(jsuser)
+         let jsuser
+         jsuser="prashanttalele1997@gmail.com"
+         console.log(jsuser)
+         Object.freeze(jsuser)
+         jsuser="prashant@google.com"
+         console.log(jsuser)
 
-
+      
      const emptyobject={}
          if(Object.keys(emptyobject).length === 0)
          {

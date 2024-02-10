@@ -4,9 +4,9 @@ let number3=40;
 
 if(true)
 {
-                const number1=50;
-                var  number2=60;
-                let number3=70;
+                 const number1=50;
+                 var  number2=60;
+                 let number3=70;
 
 
                  console.log("inner",number1)
@@ -22,9 +22,9 @@ if(true)
 }
 
 
-       console.log(number1)
-       console.log(number2)
-       console.log(number3)
+       console.log("Global ="+number1)
+       console.log("Global ="+number2)
+       console.log("Global ="+number3)
 
     function user()
        {
@@ -35,7 +35,7 @@ if(true)
                       const server="youtube"
                       console.log(user1)
                }
-             client()
+              client()
        }
        user()
 
@@ -43,10 +43,10 @@ if(true)
     
        if(true)
           {
-               const username="prashant"
-               if(username==="prashant")
-               {
+                 const username="prashant"
+                if(username==="prashant")
+                {
                        const talele="talele"
                        console.log(username + talele)
-               }
+                }
           }
