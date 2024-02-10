@@ -4,21 +4,21 @@ let number3=40;
 
 if(true)
 {
-               const number1=50;
-               var  number2=60;
-               let number3=70;
+                const number1=50;
+                var  number2=60;
+                let number3=70;
 
 
-                console.log("inner",number1)
-                console.log("inner",number2)
-                console.log("inner",number3)
+                 console.log("inner",number1)
+                 console.log("inner",number2)
+                 console.log("inner",number3)
 }
 
 if(true)
 {
-                const number1=50;
-                var  number2=60;
-                let number3=70;
+                 const number1=50;
+                 var  number2=60;
+                 let number3=70;
 }
 
 

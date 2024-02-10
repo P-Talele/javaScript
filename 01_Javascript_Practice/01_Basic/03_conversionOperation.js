@@ -8,11 +8,16 @@
    console.log(nameString)
    console.log(typeof convertNumber)
       
-console.log("2"+2+2)
-console.log(2+2+"2")
-console.log("2"+2*2)
-console.log(2*2+"2")
 
+   
    const value =10
    let negValue=-value
    console.log("negative value"+negValue)
+
+   console.log("*****************************************************************************************")
+   console.log("2"+2+2)
+   console.log(2+2+"2")
+   console.log("2"+2*2)
+   console.log(2*2+"2")    
+
+
