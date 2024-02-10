@@ -9,7 +9,7 @@ function  calculate(a, b ,callback)        // this is Call Back Function
 calculate(20,30,sum);
 
 
-function getdata1( emp_id)
+function getdata1(emp_id)
 {
  console.log("Emplyee ID="+emp_id)     
 }

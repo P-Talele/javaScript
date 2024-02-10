@@ -8,8 +8,8 @@ let promise=new Promise((resolve, reject)=>{
 function  getInformation(student_id) {
            let promise =new Promise((resolve ,reject)=>{
            setTimeout(()=>{
-                    console.log("Student ID="+student_id)
-                    resolve("succsess")
+                     console.log("Student ID="+student_id)
+                     resolve("succsess")
                 
                },2000)
          })
@@ -54,9 +54,9 @@ promise2.
   
        promise   =getPromise();
 
-         promise.then((res)=> {
-         console.log("My Order Suucessfully Completed "+res)
-  });
+           promise.then((res)=> {
+           console.log("My Order Suucessfully Completed "+res)
+           });
 
     promise.catch((err)=>{
     console.log("Some Technical Resones , we can not deleverd our order"+err)
@@ -77,13 +77,13 @@ promise2.
      console.log(" i am Promise ")
          promise   =getPromise1();
   
-           promise.then((res)=> {
-           console.log(res)
+            promise.then((res)=> {
+            console.log(res)
     });
   
-      promise.catch((err)=>{
-      console.log(err)
-      });
+         promise.catch((err)=>{
+         console.log(err)
+  });
 
 
 
