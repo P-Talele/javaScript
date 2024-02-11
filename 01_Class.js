@@ -62,6 +62,7 @@ class s3                                          // Using Constructor
 let obj4= new   s4()
     obj4.disp5(121,"Kashi")
 
+    console.log("Javascript")
 
 
 
