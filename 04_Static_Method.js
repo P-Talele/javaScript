@@ -2,7 +2,7 @@ class Student
 {
       static disp()
        {
-            let name =" my name is prashant"
+             let name =" my name is prashant"
              return name
        }
 }
