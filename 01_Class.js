@@ -28,7 +28,7 @@ obj1.disp1()                                     // object Calling
 obj1.disp2()                                     // Object Calling 
 
 
-
+       
 class s3                                          // Using Constructor 
 {  
     
