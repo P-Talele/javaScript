@@ -8,17 +8,17 @@ function myFunction(){
     console.log("T")
 } 
 myFunction()
- function AddTwoNumber (number1,number2)
-  {
-      console.log(number1+number2)  
-      const add=number1+number2
-      console.log(add)     
-  }
- AddTwoNumber(5,6)
+  function AddTwoNumber (number1,number2)
+   {
+       console.log(number1+number2)  
+       const add=number1+number2
+       console.log(add)     
+   }
+    AddTwoNumber(5,6)
 
  function AddTwoNumber (number1,number2)
   {
-          const add=number1+number2
+           const add=number1+number2
            return add     
   }
    const add=AddTwoNumber(6,6)
@@ -42,14 +42,14 @@ function AddTwoNumber (number1,number2)
   
   
    function loggedIn(username)
-   {
-       if(!username)
-       { 
-              console.log("please Enter your username")
-              return 
-       }
-         return `${username} just logged in`
-      }
+    {
+        if(!username)
+        { 
+                  console.log("please Enter your username")
+                  return 
+        } 
+               return `${username} just logged in`
+        }
       console.log(loggedIn("Sam"))
 
 
@@ -63,7 +63,7 @@ function calculateCartPrice(...num)
 const myNewArray=[10,20,30,40];
 function newArray(getArray)
 {
-   return getArray[2]
+    return getArray[2]
 }
-console.log(newArray(myNewArray))
+  console.log(newArray(myNewArray))
   

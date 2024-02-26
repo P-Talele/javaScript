@@ -6,10 +6,10 @@
      console.log(Upper.indexOf('h'))
 
 
-     let  empCity="  Jalgaon"
+        let  empCity="  Jalgaon"
 
-      console.log(empCity)
-      console.log(empCity)    
+       console.log(empCity)
+       console.log(empCity)    
 
 
   
