@@ -9,9 +9,9 @@ function  Mumbai_1()
 {
      setTimeout(()=>{
          console.log("Mumbai=30")
-  },2000)
+   },2000)
 }
-pune_1()  // calling function 
+pune_1()    // calling function 
 Mumbai_1()  // Calling function 
 
 

@@ -70,7 +70,8 @@ promise2.
            setTimeout(()=>{
              console.log("Data_1")
              resolve("Success One ")
-           },2000)
+             reject("Reject")
+           },22000)
          });
     };
   

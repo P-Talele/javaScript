@@ -1,12 +1,12 @@
 function sum(a,b)
 {
-       console.log(a+b);            
+     console.log(a+b);            
 }
-function  calculate(a, b ,callback)        // this is Call Back Function 
+function    calculate(a, b ,callback)        // this is Call Back Function 
 {
-     callback(a,b);
+       callback(a,b);
 }
-calculate(20,30,sum);
+calculate(20,30,sum);     
 
 
 function getdata1(emp_id)
@@ -21,9 +21,9 @@ getdata1(1)
 
 function getdata( emp_id)
 {
-       setTimeout(()=>{
-         console.log("Emplyee ID="+emp_id)  
-       },2000)
+         setTimeout(()=>{
+           console.log("Emplyee ID="+emp_id)  
+        },2000)
 }
 
 getdata(123)
@@ -33,7 +33,7 @@ getdata(1)
 function information(id , nextinformation)
 {
          setTimeout(()=>{
-        if(nextinformation) {
+         if(nextinformation) {
               nextinformation()
          }
          console.log("Student Information="+id);
